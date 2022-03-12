@@ -57,6 +57,8 @@ def fourthTriangle(rowNumber):
         print("*"*(row+1))
     print("--------------------------------")
 
+
+
 print("enter any number from 1 to 9")
 try:
     rowNumber = int(input())
@@ -66,6 +68,6 @@ try:
         thirdTriangle(rowNumber)
         fourthTriangle(rowNumber)
     else:
-        print("u entered a wrong input not anumber")
+        print("u entered worng ")
 except:
     print("u entered a wrong input not anumber")
