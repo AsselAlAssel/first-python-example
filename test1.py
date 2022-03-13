@@ -30,31 +30,31 @@
 # ***************************************************************
 
 def firstTriangle(rowNumber):
-    for row in reversed(range(rowNumber)):
-        print("*"*(row+1))
+    for row in reversed(range(1,rowNumber+1)):
+        print("*"*(row))
     print("--------------------------------")
 
 
 def secondTriangle(rowNumber):
 
-    for row in range(rowNumber):
-        print("*"*(row+1))
+    for row in range(1,rowNumber+1):
+        print("*"*(row))
 
     print("--------------------------------")
 
 
 def thirdTriangle(rowNumber):
 
-    for row in reversed(range(rowNumber)):
-        print(" "*(rowNumber-(row+1)), end="")
-        print("*"*(row+1))
+    for row in reversed(range( 1,rowNumber+1)):
+        print(" "*(rowNumber-(row)), end="")
+        print("*"*(row))
     print("--------------------------------")
 
 def fourthTriangle(rowNumber):
 
-    for row in range(rowNumber):
-        print(" "*(rowNumber-(row+1)), end="")
-        print("*"*(row+1))
+    for row in range(1,rowNumber+1):
+        print(" "*(rowNumber-(row)), end="")
+        print("*"*(row))
     print("--------------------------------")
 
 
